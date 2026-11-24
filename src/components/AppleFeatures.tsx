@@ -90,7 +90,7 @@ export const AppleFeatures: React.FC<AppleFeaturesProps> = ({ featureImages: _fe
             重新定义
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> 文案创作</span>
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed whitespace-nowrap">
+          <p className="mx-auto max-w-3xl text-base text-gray-600 leading-relaxed sm:text-lg">
             集成最先进的AI技术，为您的每一次营销活动提供精准、高效、个性化的文案解决方案
           </p>
         </div>
