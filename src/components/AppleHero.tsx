@@ -62,7 +62,7 @@ export const AppleHero: React.FC<AppleHeroProps> = ({ onScrollToGenerator }) => 
         <div className={`transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
 
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-none">
+          <h1 className="mb-5 text-4xl font-bold leading-tight text-white sm:text-6xl md:mb-6 md:text-7xl lg:text-8xl">
             重新定义
             <br />
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -71,7 +71,7 @@ export const AppleHero: React.FC<AppleHeroProps> = ({ onScrollToGenerator }) => 
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="mx-auto mb-9 max-w-3xl text-base leading-relaxed text-white/80 sm:text-xl md:mb-12 md:text-2xl">
             基于先进的AI技术，为全球90+个地区生成高转化率的本土化广告文案
           </p>
 
@@ -89,18 +89,18 @@ export const AppleHero: React.FC<AppleHeroProps> = ({ onScrollToGenerator }) => 
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-white/20">
+          <div className="mt-12 grid grid-cols-3 gap-3 border-t border-white/20 pt-10 md:mt-16 md:gap-8 md:pt-16">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">50K+</div>
-              <div className="text-white/60 text-lg">成功文案</div>
+              <div className="mb-2 text-2xl font-bold text-white sm:text-4xl md:text-5xl">50K+</div>
+              <div className="text-sm text-white/60 md:text-lg">成功文案</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">90+</div>
-              <div className="text-white/60 text-lg">支持地区</div>
+              <div className="mb-2 text-2xl font-bold text-white sm:text-4xl md:text-5xl">90+</div>
+              <div className="text-sm text-white/60 md:text-lg">支持地区</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">98%</div>
-              <div className="text-white/60 text-lg">用户满意度</div>
+              <div className="mb-2 text-2xl font-bold text-white sm:text-4xl md:text-5xl">98%</div>
+              <div className="text-sm text-white/60 md:text-lg">用户满意度</div>
             </div>
           </div>
         </div>
