@@ -67,6 +67,23 @@ src/
 - Node.js 16+
 - npm 或 yarn
 
+### 本地直接部署（推荐日常使用）
+
+在项目目录中双击 `start-local.cmd`，脚本会自动构建并启动本地生产版本。也可以在命令行运行：
+
+```bash
+npm install
+npm run start
+```
+
+然后访问：
+
+```text
+http://localhost:4173/
+```
+
+同一局域网内的设备可使用启动日志中显示的 `Network` 地址访问。关闭启动窗口即可停止服务。
+
 ### 安装依赖
 ```bash
 npm install
